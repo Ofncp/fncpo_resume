@@ -1,0 +1,49 @@
+App: Coffee Shop
+
+Business Name: 
+
+
+Description: 
+1. Allows a visitor to register as customer.
+
+2. Allows a registered user to order from website.
+	2.a. Registered user should able to choose a coffee and add to cart.
+	//2.b. Registered user should able to check-out.
+
+3. Allows registered users to update their informations
+
+4. Allows admin to update products:
+
+5. Allows admin to update registered user's status (Active/Inactive):
+
+User
+userName- string
+firstName- string
+lastName- string
+email- string
+password- string
+mobileNo-string
+isAdmin- boolean, default: false
+
+
+Products:
+name- string
+description- string
+price- number
+isActive-boolean, default: false
+createdOn- current date of creation
+
+orders: 
+	invoiceNo- string
+	orderedBy-string
+	purchaseDate- date
+	pickUpDate- date
+	orderDetails: {
+	coffeeName- string
+	quantity- number
+	total- number
+	}
+
+
+
+

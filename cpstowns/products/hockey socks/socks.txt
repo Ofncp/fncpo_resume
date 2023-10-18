@@ -1,0 +1,29 @@
+https://us.ccmhockey.com/Accessories/Socks/SX6000-SR.html?dwvar_SX6000-SR_color=SX6000-BLK
+
+1.(6000 SERIES QUICKLITE PRACTICE SOCK SENIOR) Hockey Pro V8 Socks
+id:
+name:
+description: The 100% breathable polyester fabric of the high-performance practice sock is equipped with Velcro fasteners to ensure that it stays in place while also wicking moisture away from your feet. These hockey socks are made to keep you feeling light and comfortable, and they have inserts that improve stretch and mobility. 
+price:$32.99
+isActive:
+----------------------------------
+2.product name here
+id:
+name:
+description: 
+price:$34.99
+isActive:
+----------------------------------
+3.product name here
+id:
+name:
+description: 
+price:159.99
+isActive:
+----------------------------------
+4.product name here
+id:
+name:
+description: 
+price:$129.99
+isActive:

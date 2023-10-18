@@ -1,0 +1,30 @@
+https://us.ccmhockey.com/Helmets
+
+1.(TACKS 720 COMBO HELMET SENIOR) Hockey Pro V8 Helmet  -- already registered to db
+id:
+name:
+description: This helmet has excellent ventilation channels that ensure a smooth flow of air. Maximum impact energy dispersal is also ensured. Whether you're carving a path through the middle of the ice or squaring up on the corners, you can rely on the TACKS 720 to keep you calm and focused while safeguarding your most precious possession.
+price:$239.99
+isActive:
+----------------------------------
+2.TACKS 720 HELMET SENIOR
+id:
+name:
+description: Ensuring that sweat evaporation and air flow are both optimal. It protects your head and your lettuce while still being lightweight, breathable, and next-level protective.
+price:$199.99
+isActive:
+----------------------------------
+3.(TACKS 70 COMBO HELMET JUNIOR) Hockey Pro V70 Helmet -- change later to Hockey C-Pro V70
+id:
+name:
+description: Maintaining mental clarity to perform at your best throughout the entire game. At every faceoff, you'll draw attention thanks to your elite level protection and comfort.
+
+price:$74.99
+isActive:
+----------------------------------
+4.SUPER TACKS X HELMET SENIOR
+id:
+name:
+description: Its low kickpoint is built to give you the stick feel and light handling you want, and it's a terrific step toward getting pops on every shot.
+price:$449.99
+isActive:

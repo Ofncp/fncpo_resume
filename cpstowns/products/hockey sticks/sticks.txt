@@ -1,0 +1,30 @@
+link:  https://us.ccmhockey.com/Sticks
+
+1.EFLEX 5 PROLITE GOALIE STICK INTERMEDIATE
+id:
+name:
+description: The redesigned high flex profile and optimized construction assist stop pucks near the boards and make clearing the zone more easier.
+price:$289.99
+isActive:
+----------------------------------
+2.EFLEX 5.9 GOALIE STICK INTERMEDIATE
+id:
+name:
+description: You won't have to worry about falling behind on the ice since hockey goalie sticks have the most recent technological advancements.
+price:$169.99
+isActive:
+----------------------------------
+3.RIBCOR TRIGGER 8 PRO STICK SENIOR
+id:
+name:
+description: It's designed with an optimized low kickpoint that enables you to unleash the ideal shot, and the Dual Feel blade technology, which consists of an avant-garde foam insert in the heel of the blade, greatly enhances your feel. Advanced carbon stacking processes are used in the Nanolite Shield technology, which results in a significant weight reduction without compromising durability.
+
+price:$349.99
+isActive:
+----------------------------------
+4.RIBCOR TRIGGER 8 STICK JUNIOR
+id:
+name:
+description: Its low kickpoint is built to give you the stick feel and light handling you want, and it's a terrific step toward getting pops on every shot.
+price:$149.99
+isActive:

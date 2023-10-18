@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@types/node": "^17.0.24"
+  },
+  "name": "shoperific",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/zuitt-projects-artienda/capstone3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/zuitt-projects-artienda/capstone3/issues"
+  },
+  "homepage": "https://gitlab.com/zuitt-projects-artienda/capstone3#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

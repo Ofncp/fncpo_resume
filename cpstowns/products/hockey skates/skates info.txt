@@ -1,0 +1,30 @@
+link: https://us.ccmhockey.com/Skates
+
+
+1.(JETSPEED FT6 PRO PLAYER SKATES YOUTH) Hockey Pro V8 Skates  -- already registered to db
+id:
+name:
+description: Their feet fit it perfectly thanks to its anatomical design, and the reinforced boot gives them the support they need to perform at their absolute best.
+price:$229.99
+isActive:
+----------------------------------
+2.JETSPEED FT680 PLAYER SKATES YOUTH
+id:
+name:
+description: Color decals are included so you can personalize your skates! These skates provide crucial safety and comfort as kids perfect their skating abilities on the ice thanks to an injected core and a sturdy boot. For further comfort, the lace-bite protection is engraved into the asymmetrical felt tongue.
+price:$129.99
+isActive:
+----------------------------------
+3.EFLEX 6.9 GOALIE SKATES JUNIOR
+id:
+name:
+description: A deep flex is provided by the asymmetrical flex stance shape for explosive maneuvers, and the one-piece boot offers a closer fit and direct energy transfer for great control. As a result, whether you're dodging a barrage of shots or acting fast to a surprise breakaway
+price:$269.99
+isActive:
+----------------------------------
+4.EFLEX 6.5 GOALIE SKATES SENIOR
+id:
+name:
+description: The secret to continued performance and game-changing saves is this shoe's resistance to wear and exceptional support provided by its EVA foam footbed.
+price:$249.99
+isActive:

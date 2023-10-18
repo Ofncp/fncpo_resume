@@ -1,0 +1,92 @@
+[
+    {
+        "_id": "650adb2382bbe0fb00aa28f5",
+        "name": "Hockey Stick -SR",
+        "description": "Built with an optimized low kickpoint allowing you to fire off the perfect shot.",
+        "price": 17500,
+        "isActive": true,
+        "createOn": "2023-09-20T10:53:57.879Z",
+        "__v": 0
+    },
+    {
+        "_id": "650add7182bbe0fb00aa28f8",
+        "name": "Hockey Helmet -SR",
+        "description": "Hockey helmet was designed to keep your noggin cool, comfortable and protected during every shift.",
+        "price": 12000,
+        "isActive": true,
+        "createOn": "2023-09-20T10:53:57.879Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af280309d727a6369f341",
+        "name": "Hockey Skate -SR",
+        "description": "Game Ready Fit for the ultimate anatomical connection from your foot to your skate, maximizing comfort and force transmission.",
+        "price": 57499,
+        "isActive": true,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af3a8309d727a6369f344",
+        "name": "Hockey Gloves -SR",
+        "description": "This design reduces the amount of hot spots inside the glove, clearing the way for a game without discomfort—and, thus, with a lot more passes, dekes and clappers.",
+        "price": 11500,
+        "isActive": true,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af459309d727a6369f347",
+        "name": "Hockey Shoulderpads -SR",
+        "description": "Designed to mimic your anatomy as closely as possible for a combination of mobility and protection.",
+        "price": 8499,
+        "isActive": true,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af4df309d727a6369f34a",
+        "name": "Hockey Pants -SR",
+        "description": "Hockey pants are designed to offer the highest quality protection while enhancing your mobility on the ice.",
+        "price": 6500,
+        "isActive": false,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af551309d727a6369f34d",
+        "name": "Hockey Shin Guards Jr-SR",
+        "description": "Designed for occasional or casual players, but they still offer the same levels of comfort and mobility, with PE inserts and easily-adjustable components for a custom fit.",
+        "price": 3300,
+        "isActive": true,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af5e1309d727a6369f350",
+        "name": "Hockey Elbow Pads -SR",
+        "description": "Superlative protection offering maximum mobility.",
+        "price": 8000,
+        "isActive": true,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af62f309d727a6369f353",
+        "name": "Hockey Socks -SR",
+        "description": "Breathable polyester fabric and equipped with Velcro fasteners so they stay in place while also wicking moisture away from your feet.",
+        "price": 1650,
+        "isActive": false,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    },
+    {
+        "_id": "650af6f2309d727a6369f356",
+        "name": "Hockey Jersey -SR",
+        "description": "Its woven neck tape prevents irritation while its breathable fabric keeps you cool while you work on your skill.",
+        "price": 1000,
+        "isActive": true,
+        "createOn": "2023-09-20T13:24:03.134Z",
+        "__v": 0
+    }
+]

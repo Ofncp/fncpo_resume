@@ -1,0 +1,30 @@
+https://us.ccmhockey.com/Protective/Shop-By-Collection/JetSpeed-Protective/HPFT6PRO-SR.html?dwvar_HPFT6PRO-SR_color=HPFT6PRO-BK
+
+1.(JETSPEED FT6 PRO HOCKEY PANTS SENIOR) Hockey Pro V8 Pants  --- already registered to db
+id:
+name:
+description: Move. Faster. Instinctively.  Thanks to the incorporation of AER-TEC technology into the existing timeless design, hockey pants are the pinnacle of lightweight and flexible protective apparel. While the anti-twist belt keeps these breezers in place as you blow past your opponents, strategic ventilation improves moisture evaporation. 
+price:$229.99
+isActive:
+----------------------------------
+2.CCM NEXT HOCKEY PANTS YOUTH
+id:
+name:
+description: Young recreational players must require high-quality equipment. Young athletes can perform at their peak on the ice thanks to the NEXT hockey pants' anatomical fit and high level of protection. Even better: they are constructed from durable lightweight polyester and 210D nylon.
+price:$39.99
+isActive:
+----------------------------------
+3.CCM NEXT HOCKEY PANTS SENIOR
+id:
+name:
+description: These adaptable, cozy hockey trousers are ideal for recreational players and garage-league fans, and they will elevate your games with friends. Your friendly games will stay friendly thanks to their tailored fit and excellent impact protection.
+
+price:69.99
+isActive:
+----------------------------------
+4.JETSPEED FTW WOMEN'S HOCKEY PANTS
+id:
+name:
+description: The women's hockey pants stretch to fit your moving body while being simple to put on and take off. The injection-molded spine shield reinforced with D3O® Smart Material and soft, water-repellent lining of these pants provide specialized, lightweight protection on the ice. 
+price:$139.99
+isActive:

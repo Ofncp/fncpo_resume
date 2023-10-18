@@ -1,0 +1,29 @@
+https://us.ccmhockey.com/search?q=shoulder+pads&search-button=&lang=en_US
+
+1.(JETSPEED FT6 SHOULDER PADS JUNIOR) Hockey Pro V8 Shoulder Pad  --- registered already to db
+id:
+name:
+description: With shoulder pads, you can keep your torso bone dry and your head firmly in the game. Their ground-breaking AER-TEC design effectively removes humidity, and their incredibly light EPP foam core completely protects against impact, so there won't be any technical difficulties getting in the way of your success.
+price:$54.99
+isActive:
+----------------------------------
+2.CCM NEXT SHOULDER PADS YOUTH
+id:
+name:
+description: These shoulder pads from the NEXT line are a lightweight, simple-fitting design perfect for aspiring players and casual pint-sized pucksters. They are made of PE foam and compress-molded plastic that protects without weighing down players.
+price:$34.99
+isActive:
+----------------------------------
+3.TACKS AS-V SHOULDER PADS JUNIOR
+id:
+name:
+description: The hockey shoulder pads have a tight fit, offer professional-level protection, and facilitate easy stick handling. The new Anatomical Shield Design (ASD) construction, which is made of the toughest materials, keeps you safe so you can concentrate on playing a strong game. With their impressive Vent-tech technology, you can go all out while maintaining your cool.
+price:159.99
+isActive:
+----------------------------------
+4.JETSPEED FTW WOMEN'S SHOULDER PADS
+id:
+name:
+description: Women's hockey shoulder pads provide specialized, adiquate impact defense designed specifically for the women's game. These cozy and light shoulder pads are made from premium molded foam and loaded with cutting-edge adjustment features, D3O® smart material, and are intended to provide a tighter, more precise fit without restricting movement. 
+price:$129.99
+isActive:

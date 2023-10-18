@@ -1,0 +1,30 @@
+https://us.ccmhockey.com/Protective/Shop-By-Age-Group/Senior/SGNEXT23-JR.html
+
+1.(CCM NEXT SHIN GUARDS JUNIOR) Hockey Pro V8 Shin Guards -- already registered to db
+id:
+name:
+description: Optimal comfort is guaranteed by a light fit that doesn't sacrifice protection. They are made for casual players who want freedom of movement while protecting themselves on the ic thanks to their design and construction. 
+price:$54.99
+isActive:
+----------------------------------
+2.TACKS AS-V PRO SHIN GUARDS SENIOR
+id:
+name:
+description: The premium exposed tough calf guard on hockey shin guards, which also has D3O® for added impact and shock absorption, provides elite-level protection. Offering exceptional comfort and range of motion is the FLEXMOTION thigh guard, Anatomic Shield Design (ASD) construction, and D3O®. Never be concerned about your shin guards coming off, no matter how intense things get. 
+price:$199.99
+isActive:
+----------------------------------
+3.QUICKLITE 190 DEK BALL HOCKEY SHIN PADS SENIOR
+id:
+name:
+description: With its lightweight design, customized fit, and simple maintenance, ball hockey equipment offers excellent protection.
+
+price:54.99
+isActive:
+----------------------------------
+4.QUICKLITE 170 DEK BALL HOCKEY SHIN PADS SENIOR
+id:
+name:
+description: With its lightweight design, customized fit, and simple maintenance, ball hockey equipment offers excellent protection.
+price:$39.99
+isActive:
