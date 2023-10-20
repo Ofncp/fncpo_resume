@@ -226,6 +226,18 @@ h2 {
     }
 }
 
+
+/* Custom CSS for the "Download PDF" button */
+#pdfDropdownButton {
+    background-color: transparent; /* Change to the desired color */
+    border: none;
+}
+
+#pdfDropdownButton:hover {
+    background-color: transparent; /* Change to the desired hover color */
+}
+
+
 footer {
     position: absolute;
     bottom: 0;
