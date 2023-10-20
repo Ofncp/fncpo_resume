@@ -12,10 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#hero" id="logo">
                 <img src="./image/france-transparent-small.png">
             </a>
@@ -30,10 +32,10 @@
                     <!-- Dropdown for PDF -->
                     <div class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="pdfDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Download My Resume
+                            Download PDF
                         </a>
                         <div class="dropdown-menu" aria-labelledby="pdfDropdown">
-                            <a class="dropdown-item" href="./document/Fncpocampo.pdf" target="_blank" download>Resume</a>
+                            <a class="dropdown-item" href="./document/FranceNicoleOcampo.pdf" target="_blank" download>PDF Here</a>
                             <!-- You can add more PDF links here as needed -->
                         </div>
                     </div>
@@ -44,10 +46,10 @@
     </nav>
     <div class="container-fluid d-flex align-items-center py-5" id="hero">
         <div class="row py-5 my-5">
-            <div class="col-md-8 offset-md-2">
+            <div class="col-md-8 offset-md-2 text-center">
                 <h1 id="banner-header" class="mb-1">France Nicole P. Ocampo</h1>
-                <p id "banner-text" class="my-5">
-                    I am a Web Developer in the process.
+                <p id="banner-text" class="my-5">
+                    I am <span class="text"></span> 
                 </p>
                 <a id="banner-btn" class="mt-1 text-decoration-none" href="javascript:void(0);" onclick="showSections()">Get started</a>
             </div>
@@ -61,35 +63,36 @@
             </div>
         </div>
         <div class="marquee-container">
-        <div class="marquee">
-            <div class="marquee-content">
-                <h2>Frontend</h2>
-                <img src="./image/logo-html5.png" alt="HTML5" class="marquee-image">
-                <img src="./image/logo-css3.png" alt="CSS3" class="marquee-image">
-                <img src="./image/logo-bootstrap.png" alt="Bootstrap" class="marquee-image">
-                <img src="./image/logo-javascript.png" alt="JavaScript" class="marquee-image">
-            </div>
-            <div class="marquee-content">
-                <h2>MERN</h2>
-                <img src="./image/logo-mongodb.png" alt="MongoDB" class="marquee-image">
-                <img src="./image/logo-expressjs.png" alt="Express" class="marquee-image">
-                <img src="./image/logo-react.png" alt="React" class="marquee-image">
-                <img src="./image/logo-nodejs.png" alt="NodeJs" class="marquee-image">
-            </div>
-            <div class="marquee-content">
-                <h2>Other Tools</h2>
-                <img src="./image/logo-git.png" alt="Git Logo" class="marquee-image">
-                <img src="./image/logo-postman.png" alt="Postman Logo" class="marquee-image">
-                <img src="./image/logo-sublime-text-3.png" alt="Sublime Text 3 Logo" class="marquee-image">
-                <img src="./image/logo-render.png" alt="Render Logo" class="marquee-image">
-                <img src="./image/logo-vercel.png" alt="Vercel Logo" class="marquee-image">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <h2>Frontend</h2>
+                    <img src="./image/logo-html5.png" alt="HTML5" class="marquee-image">
+                    <img src="./image/logo-css3.png" alt="CSS3" class="marquee-image">
+                    <img src="./image/logo-bootstrap.png" alt="Bootstrap" class="marquee-image">
+                    <img src="./image/logo-javascript.png" alt="JavaScript" class="marquee-image">
+                </div>
+                <div class="marquee-content">
+                    <h2>MERN</h2>
+                    <img src="./image/logo-mongodb.png" alt="MongoDB" class="marquee-image">
+                    <img src="./image/logo-expressjs.png" alt="Express" class="marquee-image">
+                    <img src="./image/logo-react.png" alt="React" class="marquee-image">
+                    <img src="./image/logo-nodejs.png" alt="NodeJs" class="marquee-image">
+                </div>
+                <div class="marquee-content">
+                    <h2>Other Tools</h2>
+                    <img src="./image/logo-git.png" alt="Git Logo" class="marquee-image">
+                    <img src="./image/logo-postman.png" alt="Postman Logo" class="marquee-image">
+                    <img src="./image/logo-sublime-text-3.png" alt="Sublime Text 3 Logo" class="marquee-image">
+                    <img src="./image/logo-render.png" alt="Render Logo" class="marquee-image">
+                    <img src="./image/logo-vercel.png" alt="Vercel Logo" class="marquee-image">
+                </div>
             </div>
         </div>
     </div>
     <div class="container-fluid mt-5" id="contact-me">
         <div class="row" id="contact">
             <div class="col-sm-12 col-md-5 mb-sm-4 mb-md-0" id="contact-me-image">
-                <img class="rounded-circle img-fluid w-80 mt-5" src="./image/me.jpg">
+                <img class="rounded-circle img-fluid w-100 mt-5" src="./image/me.jpg">
             </div>
             <div class="col-md-6 p-5">
                 <h2 id="contact-me-header" class="pt-5 pb-3">
@@ -115,13 +118,14 @@
             </div>
         </div>
     </div>
-    <footer class="mt-5 py-3">
-        2023 | All rights reserved
+    <footer class="mt-5 py-3 text-center"> 
+        France Ocampo2023 | All rights reserved
     </footer>
 
     <script type="text/javascript" src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQU
+    iU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
