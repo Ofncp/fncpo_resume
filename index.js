@@ -16,15 +16,19 @@ function showSections() {
 }
 
 function downloadPDF() {
-            window.open('./document/FranceNicoleOcampo.pdf', '_blank');
+            window.open('./document/FranceNicoleOcampo102023.pdf', '_blank');
 }
 
-emailjs.init(""); // Replace with your user ID from Email.js
+
+
+
+/* hold temp not yet completely done configuring
+emailjs.init("HZ-uazxdjZRTlLAVT"); // Replace with your user ID from Email.js
 
     document.getElementById("contact-form").addEventListener("submit", function (event) {
         event.preventDefault();
 
-        emailjs.send("your_service_id", "your_template_id", {
+        emailjs.send("service_23gp8im", "your_template_id", {
             user_name: this.user_name.value,
             user_email: this.user_email.value,
             user_message: this.user_message.value,
@@ -38,3 +42,5 @@ emailjs.init(""); // Replace with your user ID from Email.js
             }
         );
     });
+
+  */  
