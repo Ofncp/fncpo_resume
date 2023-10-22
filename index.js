@@ -20,27 +20,36 @@ function downloadPDF() {
 }
 
 
+// email js
+
+ (function() {
+            emailjs.init("HZ-uazxdjZRTlLAVT");
+        })();
+
+        document.getElementById('form-btn').addEventListener('click', function(event) {
+            event.preventDefault();
+
+            // Collect user input
+            const userName = document.getElementById('inputName').value;
+            const userEmail = document.getElementById('inputEmail').value;
+            const userMessage = document.getElementById('inputMessage').value;
+
+            // Compose the email
+            const emailParams = {
+                from_name: userName,
+                to_email: 'fncp007@gmail.com', // Your personal email
+                message: userMessage,
+            };
+
+            // Send the email
+            emailjs.send('service_23gp8im', 'template_or5xjje', emailParams)
+                .then(function(response) {
+                    alert('Your message was sent successfully!');
+                    // Clear the form or redirect to a confirmation page
+                })
+                .catch(function(error) {
+                    alert('There was an error sending your message. Please try again.');
+                });
+        });
 
 
-/* hold temp not yet completely done configuring
-emailjs.init("HZ-uazxdjZRTlLAVT"); // Replace with your user ID from Email.js
-
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
-        event.preventDefault();
-
-        emailjs.send("service_23gp8im", "your_template_id", {
-            user_name: this.user_name.value,
-            user_email: this.user_email.value,
-            user_message: this.user_message.value,
-        }).then(
-            function (response) {
-                alert("Message sent successfully!");
-                document.getElementById("contact-form").reset();
-            },
-            function (error) {
-                alert("Message could not be sent. Please try again later.");
-            }
-        );
-    });
-
-  */  
