@@ -16,7 +16,7 @@ function showSections() {
 }
 
 function downloadPDF() {
-            window.open('./document/fncpo_resume.pdf', '_blank');
+            window.open('./document/fncpocampo.pdf', '_blank');
 }
 
 
