@@ -30,6 +30,8 @@ function showSection(sectionId) {
 
 
 
+
+
 function downloadPDF() {
     // Get the PDF file path
     var pdfFilePath = './document/Fncpocampo_sd2024.pdf';
