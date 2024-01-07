@@ -6,17 +6,28 @@ var typed = new Typed(".text", {
     loop: true
 });
 
-function showSections() {
-    var developerToolsSection = document.getElementById("developer-tools");
-    var contactMeSection = document.getElementById("contact-me");
+// function showSections() {
+//     var developerToolsSection = document.getElementById("developer-tools");
+//     var contactMeSection = document.getElementById("contact-me");
 
-    if (developerToolsSection && contactMeSection) {
-        developerToolsSection.style.display = "block";
-        contactMeSection.style.display = "block";
+//     if (developerToolsSection && contactMeSection) {
+//         developerToolsSection.style.display = "block";
+//         contactMeSection.style.display = "block";
+//     } else {
+//         console.error("One or both sections not found.");
+//     }
+// }
+
+function showSection(sectionId) {
+    var section = document.getElementById(sectionId);
+
+    if (section) {
+        section.style.display = "block";
     } else {
-        console.error("One or both sections not found.");
+        console.error("Section not found.");
     }
 }
+
 
 
 function downloadPDF() {
