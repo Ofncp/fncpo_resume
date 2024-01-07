@@ -6,27 +6,30 @@ var typed = new Typed(".text", {
     loop: true
 });
 
-// function showSections() {
-//     var developerToolsSection = document.getElementById("developer-tools");
-//     var contactMeSection = document.getElementById("contact-me");
+function showSections() {
+    var developerToolsSection = document.getElementById("developer-tools");
+    var contactMeSection = document.getElementById("contact-me");
+    var pdfDropdownSection = document.getElementById("pdf-dropdown");
 
-//     if (developerToolsSection && contactMeSection) {
-//         developerToolsSection.style.display = "block";
-//         contactMeSection.style.display = "block";
-//     } else {
-//         console.error("One or both sections not found.");
-//     }
-// }
+    if (developerToolsSection && contactMeSection &&) {
+        developerToolsSection.style.display = "block";
+        contactMeSection.style.display = "block";
+        pdfDropdownSection.style.display = "block";
 
-function showSection(sectionId) {
-    var section = document.getElementById(sectionId);
-
-    if (section) {
-        section.style.display = "block";
     } else {
-        console.error("Section not found.");
+        console.error("One or both sections not found.");
     }
 }
+
+// function showSection(sectionId) {
+//     var section = document.getElementById(sectionId);
+
+//     if (section) {
+//         section.style.display = "block";
+//     } else {
+//         console.error("Section not found.");
+//     }
+// }
 
 
 
