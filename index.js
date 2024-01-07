@@ -10,9 +10,14 @@ function showSections() {
     var developerToolsSection = document.getElementById("developer-tools");
     var contactMeSection = document.getElementById("contact-me");
 
-    developerToolsSection.style.display = "block";
-    contactMeSection.style.display = "block";
+    if (developerToolsSection && contactMeSection) {
+        developerToolsSection.style.display = "block";
+        contactMeSection.style.display = "block";
+    } else {
+        console.error("One or both sections not found.");
+    }
 }
+
 
 function downloadPDF() {
     // Get the PDF file path
