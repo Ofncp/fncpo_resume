@@ -34,3 +34,36 @@ function downloadPDF() {
     // Clean up: Remove the anchor from the body
     document.body.removeChild(link);
 }
+
+// email js
+
+ (function() {
+            emailjs.init("HZ-uazxdjZRTlLAVT");
+        })();
+
+        document.getElementById('form-btn').addEventListener('click', function(event) {
+            event.preventDefault();
+
+            // Collect user input
+            const userName = document.getElementById('inputName').value;
+            const userEmail = document.getElementById('inputEmail').value;
+            const userMessage = document.getElementById('inputMessage').value;
+
+            // Compose the email
+            const emailParams = {
+                from_name: userName,
+                to_email: 'fncp007@gmail.com', // Your personal email
+                message: userMessage,
+            };
+
+            // Send the email
+            emailjs.send('service_23gp8im', 'template_or5xjje', emailParams)
+                .then(function(response) {
+                    alert('Your message was sent successfully!');
+                    // Clear the form or redirect to a confirmation page
+                })
+                .catch(function(error) {
+                    alert('There was an error sending your message. Please try again.');
+                });
+        });
+
